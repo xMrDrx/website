@@ -1,0 +1,94 @@
+/* Dark Theme */
+:root.dark-theme {
+    --primary-color: #00509a;
+    --secondary-color: #4DA6FF;
+    --accent-color: #ffbe0b;
+    --text-color: #e1e1e1;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --header-bg: linear-gradient(45deg, #00509a, #4DA6FF);
+    --footer-bg: #000000;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.dark-theme .feature-card,
+.dark-theme .testimonial-slide,
+.dark-theme .download-card,
+.dark-theme .requirement-item,
+.dark-theme .timeline-content,
+.dark-theme .contact-card,
+.dark-theme .contact-form {
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow);
+}
+
+.dark-theme .form-group input,
+.dark-theme .form-group textarea {
+    background-color: #2b2b2b;
+    border-color: #444;
+    color: var(--text-color);
+}
+
+.dark-theme .form-group input:focus,
+.dark-theme .form-group textarea:focus {
+    border-color: var(--primary-color);
+}
+
+.dark-theme .social-icon {
+    background-color: var(--primary-color);
+}
+
+.dark-theme .testimonials,
+.dark-theme .requirements {
+    background-color: #1a1a1a;
+}
+
+/* Ensure navbar links are white in dark mode */
+.dark-theme .navbar .nav-link {
+    color: #ffffff;
+}
+
+.dark-theme .navbar.sticky .nav-link {
+    color: #ffffff;
+}
+
+/* Don't invert logo in dark mode */
+.dark-theme .logo-img {
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+}
+
+.dark-theme .logo:hover .logo-img {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+}
+
+.dark-theme #theme-toggle i.fa-moon {
+    display: none;
+}
+
+.dark-theme #theme-toggle i.fa-sun {
+    display: inline-block;
+}
+
+/* Hide sun icon by default (only shown in dark theme) */
+#theme-toggle i.fa-sun {
+    display: none;
+}
+
+/* Animation for theme transition */
+.theme-transition {
+    animation: themeChange 0.5s ease;
+}
+
+@keyframes themeChange {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+} 

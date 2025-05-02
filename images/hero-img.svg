@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="400" viewBox="0 0 700 400" fill="none">
+  <!-- Computer monitor -->
+  <path d="M523 375H175C150 375 125 350 125 325V125C125 100 150 75 175 75H523C548 75 573 100 573 125V325C573 350 548 375 523 375Z" fill="#BBC7D9" stroke="#6A83A9" stroke-width="2"/>
+  <path d="M498 350H200C187.5 350 175 337.5 175 325V125C175 112.5 187.5 100 200 100H498C510.5 100 523 112.5 523 125V325C523 337.5 510.5 350 498 350Z" fill="white" stroke="#6A83A9" stroke-width="2"/>
+  <path d="M573 325H125V350C125 362.5 137.5 375 150 375H548C560.5 375 573 362.5 573 350V325Z" fill="#A4B4CE" stroke="#6A83A9" stroke-width="2"/>
+  
+  <!-- Monitor stand -->
+  <path d="M373 375L348 425H373H398L373 375Z" fill="#A4B4CE" stroke="#6A83A9" stroke-width="2"/>
+  <rect x="323" y="425" width="100" height="10" rx="5" fill="#D0D0D0" stroke="#6A83A9" stroke-width="2"/>
+  
+  <!-- Code screen -->
+  <rect x="200" y="125" width="298" height="200" rx="5" fill="#243B55" stroke="#0F2036" stroke-width="2"/>
+  <rect x="200" y="125" width="298" height="25" rx="5" fill="#354B66" stroke="#0F2036" stroke-width="2"/>
+  <circle cx="215" cy="137.5" r="5" fill="#FF6B6B"/>
+  <circle cx="235" cy="137.5" r="5" fill="#FFD93D"/>
+  <circle cx="255" cy="137.5" r="5" fill="#6BCB77"/>
+  
+  <!-- Code lines -->
+  <line x1="220" y1="165" x2="310" y2="165" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="220" y1="185" x2="380" y2="185" stroke="#4D96FF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="240" y1="205" x2="360" y2="205" stroke="#6BCB77" stroke-width="2" stroke-linecap="round"/>
+  <line x1="240" y1="225" x2="320" y2="225" stroke="#FFD93D" stroke-width="2" stroke-linecap="round"/>
+  <line x1="220" y1="245" x2="400" y2="245" stroke="#4D96FF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="240" y1="265" x2="340" y2="265" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="220" y1="285" x2="360" y2="285" stroke="#AE00FB" stroke-width="2" stroke-linecap="round"/>
+  <line x1="250" y1="305" x2="330" y2="305" stroke="#6BCB77" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- UI screen -->
+  <rect x="450" y="150" width="130" height="150" rx="5" fill="#4D96FF" stroke="#2e7bd9" stroke-width="2"/>
+  <rect x="465" y="170" width="100" height="20" rx="5" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1"/>
+  <rect x="465" y="200" width="100" height="20" rx="5" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1"/>
+  <rect x="465" y="230" width="70" height="20" rx="5" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1"/>
+  <line x1="465" y1="260" x2="565" y2="260" stroke="white" stroke-width="1"/>
+  <line x1="465" y1="270" x2="540" y2="270" stroke="white" stroke-width="1"/>
+  <line x1="465" y1="280" x2="565" y2="280" stroke="white" stroke-width="1"/>
+  
+  <!-- Books on left -->
+  <rect x="200" y="400" width="100" height="25" rx="5" fill="#4D96FF" stroke="#2e7bd9" stroke-width="2"/>
+  <rect x="340" y="400" width="150" height="20" rx="5" fill="#6BCB77" stroke="#3e8047" stroke-width="2"/>
+  <path d="M175 425C175 420 175 410 200 410H300C300 410 300 410 300 415V435C300 435 300 435 290 435H175C175 435 175 430 175 425Z" fill="#4D96FF" stroke="#2e7bd9" stroke-width="2"/>
+  <path d="M340 420C340 415 340 410 365 410H465C465 410 465 410 465 415V420C465 420 465 420 445 420H340Z" fill="#6BCB77" stroke="#3e8047" stroke-width="2"/>
+  
+  <!-- Pencil cup -->
+  <rect x="600" y="350" width="40" height="50" rx="5" fill="#6246EA" stroke="#4924d6" stroke-width="2"/>
+  <line x1="610" y1="340" x2="610" y2="390" stroke="#FF6B6B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="620" y1="330" x2="620" y2="390" stroke="#6BCB77" stroke-width="4" stroke-linecap="round"/>
+  <line x1="630" y1="350" x2="630" y2="390" stroke="#4D96FF" stroke-width="4" stroke-linecap="round"/>
+</svg> 
